@@ -1,0 +1,6 @@
+numpy
+pandas
+jupyterlab
+notebook
+jupyterthemes
+pyyaml
