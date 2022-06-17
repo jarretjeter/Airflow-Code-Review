@@ -1,0 +1,1096 @@
+[2022-06-17 12:46:43,988] {processor.py:153} INFO - Started process (PID=16474) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:46:43,989] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:46:43,989] {logging_mixin.py:115} INFO - [2022-06-17 12:46:43,989] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:46:43,993] {logging_mixin.py:115} INFO - [2022-06-17 12:46:43,992] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:46:43,993] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:46:45,239] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.254 seconds
+[2022-06-17 12:47:46,309] {processor.py:153} INFO - Started process (PID=16518) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:47:46,356] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:47:46,356] {logging_mixin.py:115} INFO - [2022-06-17 12:47:46,356] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:47:46,359] {logging_mixin.py:115} INFO - [2022-06-17 12:47:46,358] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:47:46,360] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:47:46,475] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.168 seconds
+[2022-06-17 12:48:20,017] {processor.py:153} INFO - Started process (PID=16535) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:20,031] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:48:20,032] {logging_mixin.py:115} INFO - [2022-06-17 12:48:20,031] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:20,033] {logging_mixin.py:115} INFO - [2022-06-17 12:48:20,032] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:48:20,033] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:20,703] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.689 seconds
+[2022-06-17 12:48:58,615] {processor.py:153} INFO - Started process (PID=16587) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:58,620] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:48:58,621] {logging_mixin.py:115} INFO - [2022-06-17 12:48:58,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:58,622] {logging_mixin.py:115} INFO - [2022-06-17 12:48:58,622] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:48:58,622] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:48:59,521] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.910 seconds
+[2022-06-17 12:49:39,303] {processor.py:153} INFO - Started process (PID=16660) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:49:39,309] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:49:39,310] {logging_mixin.py:115} INFO - [2022-06-17 12:49:39,310] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:49:39,312] {logging_mixin.py:115} INFO - [2022-06-17 12:49:39,312] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:49:39,313] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:49:40,264] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.965 seconds
+[2022-06-17 12:50:11,936] {processor.py:153} INFO - Started process (PID=16723) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:50:12,269] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:50:12,270] {logging_mixin.py:115} INFO - [2022-06-17 12:50:12,270] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:50:12,272] {logging_mixin.py:115} INFO - [2022-06-17 12:50:12,271] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:50:12,272] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:50:12,461] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.528 seconds
+[2022-06-17 12:51:10,323] {processor.py:153} INFO - Started process (PID=16813) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:10,348] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:51:10,349] {logging_mixin.py:115} INFO - [2022-06-17 12:51:10,349] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:10,350] {logging_mixin.py:115} INFO - [2022-06-17 12:51:10,350] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 2, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 12:51:10,350] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:12,338] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 2.017 seconds
+[2022-06-17 12:51:46,590] {processor.py:153} INFO - Started process (PID=16879) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:46,591] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:51:46,592] {logging_mixin.py:115} INFO - [2022-06-17 12:51:46,592] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:46,593] {logging_mixin.py:115} INFO - [2022-06-17 12:51:46,593] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 18
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:51:46,593] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:51:47,283] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.697 seconds
+[2022-06-17 12:52:19,982] {processor.py:153} INFO - Started process (PID=16936) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:52:19,993] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:52:19,993] {logging_mixin.py:115} INFO - [2022-06-17 12:52:19,993] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:52:19,994] {logging_mixin.py:115} INFO - [2022-06-17 12:52:19,994] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 18
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:52:19,994] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:52:21,195] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.216 seconds
+[2022-06-17 12:53:19,759] {processor.py:153} INFO - Started process (PID=16981) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:19,760] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:53:19,761] {logging_mixin.py:115} INFO - [2022-06-17 12:53:19,761] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:19,763] {logging_mixin.py:115} INFO - [2022-06-17 12:53:19,762] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 18
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:53:19,763] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:20,032] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.276 seconds
+[2022-06-17 12:53:56,277] {processor.py:153} INFO - Started process (PID=17028) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:56,310] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:53:56,310] {logging_mixin.py:115} INFO - [2022-06-17 12:53:56,310] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:56,311] {logging_mixin.py:115} INFO - [2022-06-17 12:53:56,311] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 18
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:53:56,312] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:53:57,227] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.954 seconds
+[2022-06-17 12:54:33,035] {processor.py:153} INFO - Started process (PID=17065) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:54:33,074] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:54:33,075] {logging_mixin.py:115} INFO - [2022-06-17 12:54:33,075] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:54:33,078] {logging_mixin.py:115} INFO - [2022-06-17 12:54:33,077] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:54:33,078] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:54:34,834] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.801 seconds
+[2022-06-17 12:55:30,360] {processor.py:153} INFO - Started process (PID=17109) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:55:30,361] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:55:30,362] {logging_mixin.py:115} INFO - [2022-06-17 12:55:30,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:55:30,365] {logging_mixin.py:115} INFO - [2022-06-17 12:55:30,364] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:55:30,366] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:55:31,615] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.259 seconds
+[2022-06-17 12:56:23,370] {processor.py:153} INFO - Started process (PID=17190) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:56:23,399] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:56:23,399] {logging_mixin.py:115} INFO - [2022-06-17 12:56:23,399] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:56:23,402] {logging_mixin.py:115} INFO - [2022-06-17 12:56:23,401] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:56:23,403] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:56:23,962] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.594 seconds
+[2022-06-17 12:57:23,091] {processor.py:153} INFO - Started process (PID=17246) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:57:23,147] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:57:23,148] {logging_mixin.py:115} INFO - [2022-06-17 12:57:23,148] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:57:23,149] {logging_mixin.py:115} INFO - [2022-06-17 12:57:23,148] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:57:23,149] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:57:24,190] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.102 seconds
+[2022-06-17 12:58:06,082] {processor.py:153} INFO - Started process (PID=17273) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:06,207] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:58:06,208] {logging_mixin.py:115} INFO - [2022-06-17 12:58:06,207] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:06,210] {logging_mixin.py:115} INFO - [2022-06-17 12:58:06,209] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:58:06,210] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:06,741] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.661 seconds
+[2022-06-17 12:58:38,033] {processor.py:153} INFO - Started process (PID=17332) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:38,033] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:58:38,034] {logging_mixin.py:115} INFO - [2022-06-17 12:58:38,034] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:38,035] {logging_mixin.py:115} INFO - [2022-06-17 12:58:38,034] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:58:38,035] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:58:39,205] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.174 seconds
+[2022-06-17 12:59:26,446] {processor.py:153} INFO - Started process (PID=17425) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:59:26,458] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 12:59:26,459] {logging_mixin.py:115} INFO - [2022-06-17 12:59:26,458] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:59:26,461] {logging_mixin.py:115} INFO - [2022-06-17 12:59:26,460] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 12:59:26,461] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 12:59:26,602] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.159 seconds
+[2022-06-17 13:00:02,504] {processor.py:153} INFO - Started process (PID=17498) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:02,510] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:00:02,510] {logging_mixin.py:115} INFO - [2022-06-17 13:00:02,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:02,511] {logging_mixin.py:115} INFO - [2022-06-17 13:00:02,511] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:00:02,511] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:02,629] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.129 seconds
+[2022-06-17 13:00:50,864] {processor.py:153} INFO - Started process (PID=17552) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:50,868] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:00:50,868] {logging_mixin.py:115} INFO - [2022-06-17 13:00:50,868] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:50,871] {logging_mixin.py:115} INFO - [2022-06-17 13:00:50,870] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:00:50,871] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:00:50,979] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.118 seconds
+[2022-06-17 13:01:23,055] {processor.py:153} INFO - Started process (PID=17612) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:01:23,056] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:01:23,057] {logging_mixin.py:115} INFO - [2022-06-17 13:01:23,057] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:01:23,059] {logging_mixin.py:115} INFO - [2022-06-17 13:01:23,059] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:01:23,060] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:01:23,199] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.148 seconds
+[2022-06-17 13:02:13,495] {processor.py:153} INFO - Started process (PID=17710) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:13,502] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:02:13,503] {logging_mixin.py:115} INFO - [2022-06-17 13:02:13,503] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:13,504] {logging_mixin.py:115} INFO - [2022-06-17 13:02:13,503] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:02:13,504] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:13,640] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.148 seconds
+[2022-06-17 13:02:54,432] {processor.py:153} INFO - Started process (PID=17793) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:54,437] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:02:54,438] {logging_mixin.py:115} INFO - [2022-06-17 13:02:54,438] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:54,440] {logging_mixin.py:115} INFO - [2022-06-17 13:02:54,440] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:02:54,441] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:02:54,591] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.162 seconds
+[2022-06-17 13:03:29,479] {processor.py:153} INFO - Started process (PID=17850) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:03:29,485] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:03:29,486] {logging_mixin.py:115} INFO - [2022-06-17 13:03:29,486] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:03:29,488] {logging_mixin.py:115} INFO - [2022-06-17 13:03:29,487] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:03:29,488] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:03:30,402] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.925 seconds
+[2022-06-17 13:04:01,937] {processor.py:153} INFO - Started process (PID=17916) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:01,937] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:04:01,938] {logging_mixin.py:115} INFO - [2022-06-17 13:04:01,938] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:01,941] {logging_mixin.py:115} INFO - [2022-06-17 13:04:01,940] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:04:01,941] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:02,073] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.139 seconds
+[2022-06-17 13:04:32,718] {processor.py:153} INFO - Started process (PID=17963) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:32,726] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:04:32,727] {logging_mixin.py:115} INFO - [2022-06-17 13:04:32,727] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:32,729] {logging_mixin.py:115} INFO - [2022-06-17 13:04:32,728] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:04:32,729] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:04:32,854] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.139 seconds
+[2022-06-17 13:05:08,074] {processor.py:153} INFO - Started process (PID=17990) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:08,076] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:05:08,076] {logging_mixin.py:115} INFO - [2022-06-17 13:05:08,076] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:08,079] {logging_mixin.py:115} INFO - [2022-06-17 13:05:08,078] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:05:08,079] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:08,207] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.136 seconds
+[2022-06-17 13:05:46,915] {processor.py:153} INFO - Started process (PID=18025) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:46,925] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:05:46,926] {logging_mixin.py:115} INFO - [2022-06-17 13:05:46,925] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:46,927] {logging_mixin.py:115} INFO - [2022-06-17 13:05:46,926] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:05:46,927] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:05:47,068] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.156 seconds
+[2022-06-17 13:06:29,256] {processor.py:153} INFO - Started process (PID=18058) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:06:29,283] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:06:29,283] {logging_mixin.py:115} INFO - [2022-06-17 13:06:29,283] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:06:29,285] {logging_mixin.py:115} INFO - [2022-06-17 13:06:29,284] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:06:29,285] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:06:29,695] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.440 seconds
+[2022-06-17 13:07:06,154] {processor.py:153} INFO - Started process (PID=18136) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:06,156] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:07:06,157] {logging_mixin.py:115} INFO - [2022-06-17 13:07:06,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:06,158] {logging_mixin.py:115} INFO - [2022-06-17 13:07:06,158] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:07:06,158] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:06,737] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.585 seconds
+[2022-06-17 13:07:41,420] {processor.py:153} INFO - Started process (PID=18211) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:41,430] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:07:41,430] {logging_mixin.py:115} INFO - [2022-06-17 13:07:41,430] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:41,431] {logging_mixin.py:115} INFO - [2022-06-17 13:07:41,431] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:07:41,431] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:07:41,624] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.206 seconds
+[2022-06-17 13:08:15,432] {processor.py:153} INFO - Started process (PID=18280) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:15,439] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:08:15,439] {logging_mixin.py:115} INFO - [2022-06-17 13:08:15,439] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:15,440] {logging_mixin.py:115} INFO - [2022-06-17 13:08:15,440] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:08:15,440] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:15,569] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.140 seconds
+[2022-06-17 13:08:55,868] {processor.py:153} INFO - Started process (PID=18368) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:55,871] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:08:55,872] {logging_mixin.py:115} INFO - [2022-06-17 13:08:55,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:55,874] {logging_mixin.py:115} INFO - [2022-06-17 13:08:55,874] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:08:55,875] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:08:56,021] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.156 seconds
+[2022-06-17 13:09:32,906] {processor.py:153} INFO - Started process (PID=18443) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:09:32,918] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:09:32,919] {logging_mixin.py:115} INFO - [2022-06-17 13:09:32,919] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:09:32,920] {logging_mixin.py:115} INFO - [2022-06-17 13:09:32,919] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:09:32,920] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:09:33,032] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.128 seconds
+[2022-06-17 13:10:08,004] {processor.py:153} INFO - Started process (PID=18487) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:08,005] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:10:08,006] {logging_mixin.py:115} INFO - [2022-06-17 13:10:08,006] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:08,009] {logging_mixin.py:115} INFO - [2022-06-17 13:10:08,008] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:10:08,009] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:08,135] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.134 seconds
+[2022-06-17 13:10:43,176] {processor.py:153} INFO - Started process (PID=18547) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:43,185] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:10:43,185] {logging_mixin.py:115} INFO - [2022-06-17 13:10:43,185] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:43,186] {logging_mixin.py:115} INFO - [2022-06-17 13:10:43,186] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:10:43,186] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:10:43,305] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.130 seconds
+[2022-06-17 13:11:19,925] {processor.py:153} INFO - Started process (PID=18621) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:19,931] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:11:19,932] {logging_mixin.py:115} INFO - [2022-06-17 13:11:19,932] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:19,935] {logging_mixin.py:115} INFO - [2022-06-17 13:11:19,934] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:11:19,935] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:20,441] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.519 seconds
+[2022-06-17 13:11:52,350] {processor.py:153} INFO - Started process (PID=18686) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:52,350] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:11:52,351] {logging_mixin.py:115} INFO - [2022-06-17 13:11:52,351] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:52,352] {logging_mixin.py:115} INFO - [2022-06-17 13:11:52,352] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:11:52,352] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:11:52,462] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.116 seconds
+[2022-06-17 13:12:28,392] {processor.py:153} INFO - Started process (PID=18756) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:12:28,516] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:12:28,517] {logging_mixin.py:115} INFO - [2022-06-17 13:12:28,517] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:12:28,519] {logging_mixin.py:115} INFO - [2022-06-17 13:12:28,519] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 21
+    def
+      ^
+SyntaxError: invalid syntax
+[2022-06-17 13:12:28,520] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:12:29,040] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.651 seconds
+[2022-06-17 13:13:15,374] {processor.py:153} INFO - Started process (PID=18841) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:15,381] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:13:15,382] {logging_mixin.py:115} INFO - [2022-06-17 13:13:15,382] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:15,383] {logging_mixin.py:115} INFO - [2022-06-17 13:13:15,383] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 24
+    )
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-06-17 13:13:15,384] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:15,506] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.136 seconds
+[2022-06-17 13:13:51,632] {processor.py:153} INFO - Started process (PID=18903) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:51,633] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:13:51,633] {logging_mixin.py:115} INFO - [2022-06-17 13:13:51,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:51,634] {logging_mixin.py:115} INFO - [2022-06-17 13:13:51,634] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 24
+    )
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-06-17 13:13:51,634] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:13:51,751] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.121 seconds
+[2022-06-17 13:14:25,995] {processor.py:153} INFO - Started process (PID=18954) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:25,997] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:14:25,997] {logging_mixin.py:115} INFO - [2022-06-17 13:14:25,997] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:25,999] {logging_mixin.py:115} INFO - [2022-06-17 13:14:25,999] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:14:25,999] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:26,138] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.146 seconds
+[2022-06-17 13:14:58,831] {processor.py:153} INFO - Started process (PID=18981) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:58,837] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:14:58,838] {logging_mixin.py:115} INFO - [2022-06-17 13:14:58,838] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:58,841] {logging_mixin.py:115} INFO - [2022-06-17 13:14:58,840] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:14:58,842] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:14:59,251] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.423 seconds
+[2022-06-17 13:15:35,268] {processor.py:153} INFO - Started process (PID=19013) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:15:35,272] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:15:35,272] {logging_mixin.py:115} INFO - [2022-06-17 13:15:35,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:15:35,274] {logging_mixin.py:115} INFO - [2022-06-17 13:15:35,273] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:15:35,274] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:15:35,401] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.137 seconds
+[2022-06-17 13:16:06,825] {processor.py:153} INFO - Started process (PID=19041) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:06,826] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:16:06,827] {logging_mixin.py:115} INFO - [2022-06-17 13:16:06,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:06,829] {logging_mixin.py:115} INFO - [2022-06-17 13:16:06,829] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:16:06,829] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:07,675] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.853 seconds
+[2022-06-17 13:16:54,005] {processor.py:153} INFO - Started process (PID=19082) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:54,017] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:16:54,018] {logging_mixin.py:115} INFO - [2022-06-17 13:16:54,018] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:54,019] {logging_mixin.py:115} INFO - [2022-06-17 13:16:54,019] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:16:54,019] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:16:54,216] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.214 seconds
+[2022-06-17 13:17:26,101] {processor.py:153} INFO - Started process (PID=19111) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:17:26,101] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:17:26,102] {logging_mixin.py:115} INFO - [2022-06-17 13:17:26,102] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:17:26,104] {logging_mixin.py:115} INFO - [2022-06-17 13:17:26,104] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:17:26,104] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:17:26,245] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.148 seconds
+[2022-06-17 13:18:05,818] {processor.py:153} INFO - Started process (PID=19169) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:05,828] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:18:05,829] {logging_mixin.py:115} INFO - [2022-06-17 13:18:05,829] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:05,830] {logging_mixin.py:115} INFO - [2022-06-17 13:18:05,830] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:18:05,830] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:06,255] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.440 seconds
+[2022-06-17 13:18:48,260] {processor.py:153} INFO - Started process (PID=19205) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:48,262] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:18:48,263] {logging_mixin.py:115} INFO - [2022-06-17 13:18:48,262] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:48,266] {logging_mixin.py:115} INFO - [2022-06-17 13:18:48,265] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:18:48,267] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:18:48,472] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.215 seconds
+[2022-06-17 13:19:29,143] {processor.py:153} INFO - Started process (PID=19236) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:19:29,158] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:19:29,158] {logging_mixin.py:115} INFO - [2022-06-17 13:19:29,158] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:19:29,161] {logging_mixin.py:115} INFO - [2022-06-17 13:19:29,160] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:19:29,161] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:19:30,065] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.924 seconds
+[2022-06-17 13:20:14,287] {processor.py:153} INFO - Started process (PID=19304) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:20:14,311] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:20:14,311] {logging_mixin.py:115} INFO - [2022-06-17 13:20:14,311] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:20:14,313] {logging_mixin.py:115} INFO - [2022-06-17 13:20:14,312] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:20:14,313] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:20:16,220] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.935 seconds
+[2022-06-17 13:21:01,724] {processor.py:153} INFO - Started process (PID=19394) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:01,745] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:21:01,745] {logging_mixin.py:115} INFO - [2022-06-17 13:21:01,745] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:01,749] {logging_mixin.py:115} INFO - [2022-06-17 13:21:01,748] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:21:01,749] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:01,881] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.160 seconds
+[2022-06-17 13:21:38,867] {processor.py:153} INFO - Started process (PID=19474) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:38,874] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:21:38,875] {logging_mixin.py:115} INFO - [2022-06-17 13:21:38,875] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:38,876] {logging_mixin.py:115} INFO - [2022-06-17 13:21:38,876] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:21:38,876] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:21:39,091] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.227 seconds
+[2022-06-17 13:22:19,297] {processor.py:153} INFO - Started process (PID=19549) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:19,429] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:22:19,430] {logging_mixin.py:115} INFO - [2022-06-17 13:22:19,430] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:19,433] {logging_mixin.py:115} INFO - [2022-06-17 13:22:19,432] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:22:19,434] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:20,634] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.338 seconds
+[2022-06-17 13:22:57,634] {processor.py:153} INFO - Started process (PID=19609) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:57,635] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:22:57,636] {logging_mixin.py:115} INFO - [2022-06-17 13:22:57,636] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:57,638] {logging_mixin.py:115} INFO - [2022-06-17 13:22:57,638] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:22:57,638] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:22:57,754] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.123 seconds
+[2022-06-17 13:23:36,998] {processor.py:153} INFO - Started process (PID=19690) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:23:37,000] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:23:37,001] {logging_mixin.py:115} INFO - [2022-06-17 13:23:37,001] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:23:37,002] {logging_mixin.py:115} INFO - [2022-06-17 13:23:37,002] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:23:37,002] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:23:37,122] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.127 seconds
+[2022-06-17 13:24:28,204] {processor.py:153} INFO - Started process (PID=19788) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:24:28,327] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:24:28,328] {logging_mixin.py:115} INFO - [2022-06-17 13:24:28,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:24:28,331] {logging_mixin.py:115} INFO - [2022-06-17 13:24:28,330] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:24:28,332] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:24:30,535] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 2.333 seconds
+[2022-06-17 13:25:04,785] {processor.py:153} INFO - Started process (PID=19855) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:04,791] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:25:04,792] {logging_mixin.py:115} INFO - [2022-06-17 13:25:04,792] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:04,794] {logging_mixin.py:115} INFO - [2022-06-17 13:25:04,794] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:25:04,794] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:04,950] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.168 seconds
+[2022-06-17 13:25:51,375] {processor.py:153} INFO - Started process (PID=19947) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:51,385] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:25:51,386] {logging_mixin.py:115} INFO - [2022-06-17 13:25:51,386] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:51,388] {logging_mixin.py:115} INFO - [2022-06-17 13:25:51,387] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:25:51,388] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:25:51,504] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.132 seconds
+[2022-06-17 13:26:25,294] {processor.py:153} INFO - Started process (PID=20020) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:26:25,295] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:26:25,296] {logging_mixin.py:115} INFO - [2022-06-17 13:26:25,296] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:26:25,300] {logging_mixin.py:115} INFO - [2022-06-17 13:26:25,299] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:26:25,300] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:26:25,442] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.152 seconds
+[2022-06-17 13:27:06,864] {processor.py:153} INFO - Started process (PID=20104) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:06,873] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:27:06,874] {logging_mixin.py:115} INFO - [2022-06-17 13:27:06,874] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:06,876] {logging_mixin.py:115} INFO - [2022-06-17 13:27:06,876] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:27:06,877] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:07,000] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.140 seconds
+[2022-06-17 13:27:51,018] {processor.py:153} INFO - Started process (PID=20195) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:51,021] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:27:51,021] {logging_mixin.py:115} INFO - [2022-06-17 13:27:51,021] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:51,023] {logging_mixin.py:115} INFO - [2022-06-17 13:27:51,022] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:27:51,023] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:27:51,176] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.160 seconds
+[2022-06-17 13:28:27,461] {processor.py:153} INFO - Started process (PID=20256) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:28:27,462] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:28:27,463] {logging_mixin.py:115} INFO - [2022-06-17 13:28:27,463] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:28:27,466] {logging_mixin.py:115} INFO - [2022-06-17 13:28:27,465] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:28:27,466] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:28:27,595] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.137 seconds
+[2022-06-17 13:29:09,502] {processor.py:153} INFO - Started process (PID=20389) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:09,507] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:29:09,508] {logging_mixin.py:115} INFO - [2022-06-17 13:29:09,507] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:09,510] {logging_mixin.py:115} INFO - [2022-06-17 13:29:09,509] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:29:09,511] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:11,004] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.504 seconds
+[2022-06-17 13:29:47,036] {processor.py:153} INFO - Started process (PID=20527) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:47,037] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:29:47,038] {logging_mixin.py:115} INFO - [2022-06-17 13:29:47,038] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:47,039] {logging_mixin.py:115} INFO - [2022-06-17 13:29:47,039] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:29:47,039] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:29:47,458] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.423 seconds
+[2022-06-17 13:30:22,377] {processor.py:153} INFO - Started process (PID=20588) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:30:22,387] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:30:22,387] {logging_mixin.py:115} INFO - [2022-06-17 13:30:22,387] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:30:22,388] {logging_mixin.py:115} INFO - [2022-06-17 13:30:22,388] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:30:22,389] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:30:22,511] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.136 seconds
+[2022-06-17 13:31:10,137] {processor.py:153} INFO - Started process (PID=20671) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:10,157] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:31:10,157] {logging_mixin.py:115} INFO - [2022-06-17 13:31:10,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:10,159] {logging_mixin.py:115} INFO - [2022-06-17 13:31:10,159] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:31:10,160] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:10,294] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.161 seconds
+[2022-06-17 13:31:44,459] {processor.py:153} INFO - Started process (PID=20886) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:44,474] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:31:44,475] {logging_mixin.py:115} INFO - [2022-06-17 13:31:44,475] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:44,476] {logging_mixin.py:115} INFO - [2022-06-17 13:31:44,476] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:31:44,476] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:31:45,129] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.673 seconds
+[2022-06-17 13:32:23,291] {processor.py:153} INFO - Started process (PID=21662) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:32:23,297] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:32:23,298] {logging_mixin.py:115} INFO - [2022-06-17 13:32:23,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:32:23,302] {logging_mixin.py:115} INFO - [2022-06-17 13:32:23,301] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:32:23,302] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:32:23,707] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 0.418 seconds
+[2022-06-17 13:33:04,892] {processor.py:153} INFO - Started process (PID=22308) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:33:06,177] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:33:06,178] {logging_mixin.py:115} INFO - [2022-06-17 13:33:06,178] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:33:06,181] {logging_mixin.py:115} INFO - [2022-06-17 13:33:06,180] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:33:06,182] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:33:06,880] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.990 seconds
+[2022-06-17 13:33:59,378] {processor.py:153} INFO - Started process (PID=23046) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:33:59,381] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py for tasks to queue
+[2022-06-17 13:33:59,382] {logging_mixin.py:115} INFO - [2022-06-17 13:33:59,382] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:33:59,385] {logging_mixin.py:115} INFO - [2022-06-17 13:33:59,384] {dagbag.py:320} ERROR - Failed to import: /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py", line 3, in <module>
+    from airflow.operators import dag, task
+ImportError: cannot import name 'dag' from 'airflow.operators' (/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2022-06-17 13:33:59,385] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py
+[2022-06-17 13:34:00,719] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.py took 1.345 seconds

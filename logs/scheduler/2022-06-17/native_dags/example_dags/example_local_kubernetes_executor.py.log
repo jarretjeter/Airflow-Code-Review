@@ -1,0 +1,616 @@
+[2022-06-17 12:37:31,664] {processor.py:153} INFO - Started process (PID=15732) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:37:31,664] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:37:31,665] {logging_mixin.py:115} INFO - [2022-06-17 12:37:31,665] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:37:31,673] {logging_mixin.py:115} INFO - [2022-06-17 12:37:31,673] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:37:31,673] {logging_mixin.py:115} INFO - [2022-06-17 12:37:31,673] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:37:31,674] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:37:31,679] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2022-06-17 12:38:45,282] {processor.py:153} INFO - Started process (PID=15796) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:38:45,287] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:38:45,287] {logging_mixin.py:115} INFO - [2022-06-17 12:38:45,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:38:45,296] {logging_mixin.py:115} INFO - [2022-06-17 12:38:45,296] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:38:45,296] {logging_mixin.py:115} INFO - [2022-06-17 12:38:45,296] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:38:45,296] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:38:45,302] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2022-06-17 12:39:39,800] {processor.py:153} INFO - Started process (PID=15841) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:39:39,802] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:39:39,803] {logging_mixin.py:115} INFO - [2022-06-17 12:39:39,802] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:39:39,815] {logging_mixin.py:115} INFO - [2022-06-17 12:39:39,814] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:39:39,815] {logging_mixin.py:115} INFO - [2022-06-17 12:39:39,815] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:39:39,815] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:39:39,821] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2022-06-17 12:40:39,790] {processor.py:153} INFO - Started process (PID=15911) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:40:39,791] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:40:39,792] {logging_mixin.py:115} INFO - [2022-06-17 12:40:39,792] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:40:39,802] {logging_mixin.py:115} INFO - [2022-06-17 12:40:39,802] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:40:39,802] {logging_mixin.py:115} INFO - [2022-06-17 12:40:39,802] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:40:39,802] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:40:39,808] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-17 12:41:32,570] {processor.py:153} INFO - Started process (PID=15985) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:41:32,571] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:41:32,572] {logging_mixin.py:115} INFO - [2022-06-17 12:41:32,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:41:32,585] {logging_mixin.py:115} INFO - [2022-06-17 12:41:32,585] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:41:32,586] {logging_mixin.py:115} INFO - [2022-06-17 12:41:32,585] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:41:32,586] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:41:32,592] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2022-06-17 12:43:17,825] {processor.py:153} INFO - Started process (PID=16126) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:43:17,826] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:43:17,826] {logging_mixin.py:115} INFO - [2022-06-17 12:43:17,826] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:43:17,840] {logging_mixin.py:115} INFO - [2022-06-17 12:43:17,839] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:43:17,840] {logging_mixin.py:115} INFO - [2022-06-17 12:43:17,840] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:43:17,840] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:43:17,846] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2022-06-17 12:44:18,580] {processor.py:153} INFO - Started process (PID=16213) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:44:18,591] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:44:18,591] {logging_mixin.py:115} INFO - [2022-06-17 12:44:18,591] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:44:18,605] {logging_mixin.py:115} INFO - [2022-06-17 12:44:18,605] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:44:18,605] {logging_mixin.py:115} INFO - [2022-06-17 12:44:18,605] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:44:18,605] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:44:18,611] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2022-06-17 12:45:27,762] {processor.py:153} INFO - Started process (PID=16338) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:45:27,771] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:45:27,771] {logging_mixin.py:115} INFO - [2022-06-17 12:45:27,771] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:45:27,780] {logging_mixin.py:115} INFO - [2022-06-17 12:45:27,779] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:45:27,780] {logging_mixin.py:115} INFO - [2022-06-17 12:45:27,780] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:45:27,780] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:45:27,786] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2022-06-17 12:46:36,773] {processor.py:153} INFO - Started process (PID=16467) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:46:36,780] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:46:36,781] {logging_mixin.py:115} INFO - [2022-06-17 12:46:36,781] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:46:36,797] {logging_mixin.py:115} INFO - [2022-06-17 12:46:36,797] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:46:36,797] {logging_mixin.py:115} INFO - [2022-06-17 12:46:36,797] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:46:36,797] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:46:36,804] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2022-06-17 12:47:38,516] {processor.py:153} INFO - Started process (PID=16510) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:47:38,527] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:47:38,527] {logging_mixin.py:115} INFO - [2022-06-17 12:47:38,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:47:38,536] {logging_mixin.py:115} INFO - [2022-06-17 12:47:38,535] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:47:38,536] {logging_mixin.py:115} INFO - [2022-06-17 12:47:38,536] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:47:38,536] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:47:38,542] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2022-06-17 12:48:51,700] {processor.py:153} INFO - Started process (PID=16571) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:48:51,701] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:48:51,702] {logging_mixin.py:115} INFO - [2022-06-17 12:48:51,702] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:48:51,713] {logging_mixin.py:115} INFO - [2022-06-17 12:48:51,713] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:48:51,713] {logging_mixin.py:115} INFO - [2022-06-17 12:48:51,713] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:48:51,713] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:48:51,719] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2022-06-17 12:50:06,415] {processor.py:153} INFO - Started process (PID=16713) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:50:06,573] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:50:06,574] {logging_mixin.py:115} INFO - [2022-06-17 12:50:06,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:50:06,589] {logging_mixin.py:115} INFO - [2022-06-17 12:50:06,589] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:50:06,589] {logging_mixin.py:115} INFO - [2022-06-17 12:50:06,589] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:50:06,590] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:50:06,596] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.184 seconds
+[2022-06-17 12:51:04,479] {processor.py:153} INFO - Started process (PID=16804) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:51:04,504] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:51:04,505] {logging_mixin.py:115} INFO - [2022-06-17 12:51:04,505] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:51:04,521] {logging_mixin.py:115} INFO - [2022-06-17 12:51:04,520] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:51:04,521] {logging_mixin.py:115} INFO - [2022-06-17 12:51:04,521] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:51:04,521] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:51:04,527] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2022-06-17 12:52:14,723] {processor.py:153} INFO - Started process (PID=16927) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:52:14,726] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:52:14,727] {logging_mixin.py:115} INFO - [2022-06-17 12:52:14,727] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:52:14,739] {logging_mixin.py:115} INFO - [2022-06-17 12:52:14,739] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:52:14,739] {logging_mixin.py:115} INFO - [2022-06-17 12:52:14,739] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:52:14,739] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:52:14,745] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2022-06-17 12:53:13,902] {processor.py:153} INFO - Started process (PID=16978) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:53:13,913] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:53:13,913] {logging_mixin.py:115} INFO - [2022-06-17 12:53:13,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:53:13,922] {logging_mixin.py:115} INFO - [2022-06-17 12:53:13,922] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:53:13,922] {logging_mixin.py:115} INFO - [2022-06-17 12:53:13,922] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:53:13,923] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:53:13,929] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2022-06-17 12:54:29,149] {processor.py:153} INFO - Started process (PID=17061) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:54:29,150] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:54:29,151] {logging_mixin.py:115} INFO - [2022-06-17 12:54:29,151] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:54:29,160] {logging_mixin.py:115} INFO - [2022-06-17 12:54:29,160] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:54:29,160] {logging_mixin.py:115} INFO - [2022-06-17 12:54:29,160] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:54:29,160] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:54:29,166] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2022-06-17 12:55:26,781] {processor.py:153} INFO - Started process (PID=17105) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:55:26,781] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:55:26,782] {logging_mixin.py:115} INFO - [2022-06-17 12:55:26,782] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:55:26,791] {logging_mixin.py:115} INFO - [2022-06-17 12:55:26,791] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:55:26,791] {logging_mixin.py:115} INFO - [2022-06-17 12:55:26,791] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:55:26,791] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:55:26,797] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2022-06-17 12:56:21,121] {processor.py:153} INFO - Started process (PID=17178) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:56:21,141] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:56:21,141] {logging_mixin.py:115} INFO - [2022-06-17 12:56:21,141] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:56:21,153] {logging_mixin.py:115} INFO - [2022-06-17 12:56:21,153] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:56:21,153] {logging_mixin.py:115} INFO - [2022-06-17 12:56:21,153] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:56:21,153] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:56:21,160] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2022-06-17 12:57:54,258] {processor.py:153} INFO - Started process (PID=17266) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:57:54,264] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:57:54,265] {logging_mixin.py:115} INFO - [2022-06-17 12:57:54,265] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:57:54,273] {logging_mixin.py:115} INFO - [2022-06-17 12:57:54,273] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:57:54,274] {logging_mixin.py:115} INFO - [2022-06-17 12:57:54,274] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:57:54,274] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:57:54,280] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2022-06-17 12:58:58,566] {processor.py:153} INFO - Started process (PID=17370) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:58:58,568] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:58:58,568] {logging_mixin.py:115} INFO - [2022-06-17 12:58:58,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:58:58,578] {logging_mixin.py:115} INFO - [2022-06-17 12:58:58,577] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:58:58,578] {logging_mixin.py:115} INFO - [2022-06-17 12:58:58,578] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:58:58,578] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:58:58,584] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2022-06-17 12:59:54,680] {processor.py:153} INFO - Started process (PID=17485) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:59:54,710] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 12:59:54,711] {logging_mixin.py:115} INFO - [2022-06-17 12:59:54,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:59:54,721] {logging_mixin.py:115} INFO - [2022-06-17 12:59:54,721] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 12:59:54,721] {logging_mixin.py:115} INFO - [2022-06-17 12:59:54,721] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 12:59:54,721] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 12:59:54,728] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.051 seconds
+[2022-06-17 13:01:17,687] {processor.py:153} INFO - Started process (PID=17597) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:01:17,693] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:01:17,694] {logging_mixin.py:115} INFO - [2022-06-17 13:01:17,694] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:01:17,710] {logging_mixin.py:115} INFO - [2022-06-17 13:01:17,710] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:01:17,711] {logging_mixin.py:115} INFO - [2022-06-17 13:01:17,711] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:01:17,711] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:01:17,717] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2022-06-17 13:02:07,507] {processor.py:153} INFO - Started process (PID=17701) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:02:07,517] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:02:07,518] {logging_mixin.py:115} INFO - [2022-06-17 13:02:07,518] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:02:07,531] {logging_mixin.py:115} INFO - [2022-06-17 13:02:07,531] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:02:07,531] {logging_mixin.py:115} INFO - [2022-06-17 13:02:07,531] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:02:07,531] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:02:07,537] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.033 seconds
+[2022-06-17 13:03:24,134] {processor.py:153} INFO - Started process (PID=17847) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:03:24,135] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:03:24,136] {logging_mixin.py:115} INFO - [2022-06-17 13:03:24,136] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:03:24,150] {logging_mixin.py:115} INFO - [2022-06-17 13:03:24,150] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:03:24,150] {logging_mixin.py:115} INFO - [2022-06-17 13:03:24,150] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:03:24,151] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:03:24,157] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2022-06-17 13:04:26,793] {processor.py:153} INFO - Started process (PID=17959) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:04:26,855] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:04:26,856] {logging_mixin.py:115} INFO - [2022-06-17 13:04:26,856] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:04:26,868] {logging_mixin.py:115} INFO - [2022-06-17 13:04:26,868] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:04:26,868] {logging_mixin.py:115} INFO - [2022-06-17 13:04:26,868] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:04:26,868] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:04:26,874] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.084 seconds
+[2022-06-17 13:05:26,380] {processor.py:153} INFO - Started process (PID=18005) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:05:26,381] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:05:26,382] {logging_mixin.py:115} INFO - [2022-06-17 13:05:26,381] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:05:26,398] {logging_mixin.py:115} INFO - [2022-06-17 13:05:26,398] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:05:26,398] {logging_mixin.py:115} INFO - [2022-06-17 13:05:26,398] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:05:26,398] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:05:26,405] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.028 seconds
+[2022-06-17 13:06:24,709] {processor.py:153} INFO - Started process (PID=18055) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:06:24,815] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:06:24,816] {logging_mixin.py:115} INFO - [2022-06-17 13:06:24,815] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:06:24,828] {logging_mixin.py:115} INFO - [2022-06-17 13:06:24,828] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:06:24,829] {logging_mixin.py:115} INFO - [2022-06-17 13:06:24,829] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:06:24,829] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:06:24,835] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.130 seconds
+[2022-06-17 13:07:20,064] {processor.py:153} INFO - Started process (PID=18163) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:07:20,065] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:07:20,066] {logging_mixin.py:115} INFO - [2022-06-17 13:07:20,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:07:20,076] {logging_mixin.py:115} INFO - [2022-06-17 13:07:20,076] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:07:20,076] {logging_mixin.py:115} INFO - [2022-06-17 13:07:20,076] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:07:20,076] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:07:20,083] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2022-06-17 13:08:12,126] {processor.py:153} INFO - Started process (PID=18271) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:12,127] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:08:12,128] {logging_mixin.py:115} INFO - [2022-06-17 13:08:12,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:12,140] {logging_mixin.py:115} INFO - [2022-06-17 13:08:12,140] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:08:12,140] {logging_mixin.py:115} INFO - [2022-06-17 13:08:12,140] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:08:12,141] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:12,147] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2022-06-17 13:08:55,598] {processor.py:153} INFO - Started process (PID=18367) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:55,602] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:08:55,603] {logging_mixin.py:115} INFO - [2022-06-17 13:08:55,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:55,612] {logging_mixin.py:115} INFO - [2022-06-17 13:08:55,612] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:08:55,612] {logging_mixin.py:115} INFO - [2022-06-17 13:08:55,612] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:08:55,612] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:08:55,618] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2022-06-17 13:09:49,568] {processor.py:153} INFO - Started process (PID=18469) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:09:49,579] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:09:49,579] {logging_mixin.py:115} INFO - [2022-06-17 13:09:49,579] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:09:49,588] {logging_mixin.py:115} INFO - [2022-06-17 13:09:49,588] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:09:49,588] {logging_mixin.py:115} INFO - [2022-06-17 13:09:49,588] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:09:49,588] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:09:49,595] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2022-06-17 13:10:40,534] {processor.py:153} INFO - Started process (PID=18538) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:10:40,599] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:10:40,600] {logging_mixin.py:115} INFO - [2022-06-17 13:10:40,599] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:10:40,612] {logging_mixin.py:115} INFO - [2022-06-17 13:10:40,611] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:10:40,612] {logging_mixin.py:115} INFO - [2022-06-17 13:10:40,612] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:10:40,612] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:10:40,618] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.087 seconds
+[2022-06-17 13:11:36,640] {processor.py:153} INFO - Started process (PID=18653) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:11:36,650] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:11:36,650] {logging_mixin.py:115} INFO - [2022-06-17 13:11:36,650] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:11:36,664] {logging_mixin.py:115} INFO - [2022-06-17 13:11:36,664] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:11:36,664] {logging_mixin.py:115} INFO - [2022-06-17 13:11:36,664] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:11:36,664] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:11:36,671] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2022-06-17 13:12:27,251] {processor.py:153} INFO - Started process (PID=18755) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:12:27,275] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:12:27,276] {logging_mixin.py:115} INFO - [2022-06-17 13:12:27,276] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:12:27,287] {logging_mixin.py:115} INFO - [2022-06-17 13:12:27,287] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:12:27,287] {logging_mixin.py:115} INFO - [2022-06-17 13:12:27,287] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:12:27,287] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:12:27,293] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2022-06-17 13:13:31,541] {processor.py:153} INFO - Started process (PID=18862) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:13:31,542] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:13:31,543] {logging_mixin.py:115} INFO - [2022-06-17 13:13:31,543] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:13:31,553] {logging_mixin.py:115} INFO - [2022-06-17 13:13:31,553] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:13:31,553] {logging_mixin.py:115} INFO - [2022-06-17 13:13:31,553] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:13:31,554] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:13:31,560] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-17 13:14:24,860] {processor.py:153} INFO - Started process (PID=18953) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:14:24,878] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:14:24,879] {logging_mixin.py:115} INFO - [2022-06-17 13:14:24,878] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:14:24,892] {logging_mixin.py:115} INFO - [2022-06-17 13:14:24,892] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:14:24,892] {logging_mixin.py:115} INFO - [2022-06-17 13:14:24,892] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:14:24,892] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:14:24,898] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2022-06-17 13:15:16,242] {processor.py:153} INFO - Started process (PID=18997) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:15:16,243] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:15:16,244] {logging_mixin.py:115} INFO - [2022-06-17 13:15:16,244] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:15:16,254] {logging_mixin.py:115} INFO - [2022-06-17 13:15:16,254] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:15:16,254] {logging_mixin.py:115} INFO - [2022-06-17 13:15:16,254] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:15:16,254] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:15:16,260] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2022-06-17 13:16:05,684] {processor.py:153} INFO - Started process (PID=19040) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:05,692] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:16:05,692] {logging_mixin.py:115} INFO - [2022-06-17 13:16:05,692] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:05,701] {logging_mixin.py:115} INFO - [2022-06-17 13:16:05,701] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:16:05,701] {logging_mixin.py:115} INFO - [2022-06-17 13:16:05,701] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:16:05,701] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:05,707] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2022-06-17 13:16:52,741] {processor.py:153} INFO - Started process (PID=19081) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:52,751] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:16:52,751] {logging_mixin.py:115} INFO - [2022-06-17 13:16:52,751] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:52,760] {logging_mixin.py:115} INFO - [2022-06-17 13:16:52,760] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:16:52,760] {logging_mixin.py:115} INFO - [2022-06-17 13:16:52,760] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:16:52,761] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:16:52,767] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2022-06-17 13:17:45,119] {processor.py:153} INFO - Started process (PID=19149) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:17:45,128] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:17:45,128] {logging_mixin.py:115} INFO - [2022-06-17 13:17:45,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:17:45,137] {logging_mixin.py:115} INFO - [2022-06-17 13:17:45,136] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:17:45,137] {logging_mixin.py:115} INFO - [2022-06-17 13:17:45,137] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:17:45,137] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:17:45,143] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2022-06-17 13:18:47,660] {processor.py:153} INFO - Started process (PID=19204) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:18:47,661] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:18:47,661] {logging_mixin.py:115} INFO - [2022-06-17 13:18:47,661] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:18:47,673] {logging_mixin.py:115} INFO - [2022-06-17 13:18:47,673] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:18:47,673] {logging_mixin.py:115} INFO - [2022-06-17 13:18:47,673] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:18:47,674] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:18:47,682] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2022-06-17 13:19:50,852] {processor.py:153} INFO - Started process (PID=19267) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:19:50,854] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:19:50,855] {logging_mixin.py:115} INFO - [2022-06-17 13:19:50,854] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:19:50,863] {logging_mixin.py:115} INFO - [2022-06-17 13:19:50,863] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:19:50,864] {logging_mixin.py:115} INFO - [2022-06-17 13:19:50,864] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:19:50,864] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:19:50,870] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2022-06-17 13:21:00,584] {processor.py:153} INFO - Started process (PID=19391) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:00,585] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:21:00,586] {logging_mixin.py:115} INFO - [2022-06-17 13:21:00,586] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:00,604] {logging_mixin.py:115} INFO - [2022-06-17 13:21:00,604] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:21:00,604] {logging_mixin.py:115} INFO - [2022-06-17 13:21:00,604] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:21:00,604] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:00,610] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2022-06-17 13:21:58,561] {processor.py:153} INFO - Started process (PID=19506) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:58,562] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:21:58,563] {logging_mixin.py:115} INFO - [2022-06-17 13:21:58,563] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:58,573] {logging_mixin.py:115} INFO - [2022-06-17 13:21:58,573] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:21:58,573] {logging_mixin.py:115} INFO - [2022-06-17 13:21:58,573] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:21:58,573] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:21:58,579] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-17 13:22:56,496] {processor.py:153} INFO - Started process (PID=19608) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:22:56,497] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:22:56,498] {logging_mixin.py:115} INFO - [2022-06-17 13:22:56,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:22:56,506] {logging_mixin.py:115} INFO - [2022-06-17 13:22:56,506] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:22:56,506] {logging_mixin.py:115} INFO - [2022-06-17 13:22:56,506] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:22:56,506] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:22:56,513] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2022-06-17 13:23:59,494] {processor.py:153} INFO - Started process (PID=19733) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:23:59,496] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:23:59,496] {logging_mixin.py:115} INFO - [2022-06-17 13:23:59,496] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:23:59,513] {logging_mixin.py:115} INFO - [2022-06-17 13:23:59,513] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:23:59,513] {logging_mixin.py:115} INFO - [2022-06-17 13:23:59,513] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:23:59,514] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:23:59,520] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.029 seconds
+[2022-06-17 13:25:26,265] {processor.py:153} INFO - Started process (PID=19894) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:25:26,266] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:25:26,266] {logging_mixin.py:115} INFO - [2022-06-17 13:25:26,266] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:25:26,279] {logging_mixin.py:115} INFO - [2022-06-17 13:25:26,278] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:25:26,279] {logging_mixin.py:115} INFO - [2022-06-17 13:25:26,279] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:25:26,279] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:25:26,285] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-17 13:26:19,235] {processor.py:153} INFO - Started process (PID=20007) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:26:19,236] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:26:19,237] {logging_mixin.py:115} INFO - [2022-06-17 13:26:19,236] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:26:19,247] {logging_mixin.py:115} INFO - [2022-06-17 13:26:19,246] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:26:19,247] {logging_mixin.py:115} INFO - [2022-06-17 13:26:19,247] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:26:19,247] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:26:19,253] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-17 13:27:23,141] {processor.py:153} INFO - Started process (PID=20134) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:27:23,141] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:27:23,142] {logging_mixin.py:115} INFO - [2022-06-17 13:27:23,142] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:27:23,151] {logging_mixin.py:115} INFO - [2022-06-17 13:27:23,150] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:27:23,151] {logging_mixin.py:115} INFO - [2022-06-17 13:27:23,151] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:27:23,151] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:27:23,157] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2022-06-17 13:28:22,184] {processor.py:153} INFO - Started process (PID=20252) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:28:22,185] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:28:22,186] {logging_mixin.py:115} INFO - [2022-06-17 13:28:22,186] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:28:22,199] {logging_mixin.py:115} INFO - [2022-06-17 13:28:22,199] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:28:22,199] {logging_mixin.py:115} INFO - [2022-06-17 13:28:22,199] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:28:22,199] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:28:22,206] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2022-06-17 13:29:24,119] {processor.py:153} INFO - Started process (PID=20488) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:29:24,120] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:29:24,121] {logging_mixin.py:115} INFO - [2022-06-17 13:29:24,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:29:24,136] {logging_mixin.py:115} INFO - [2022-06-17 13:29:24,135] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:29:24,136] {logging_mixin.py:115} INFO - [2022-06-17 13:29:24,136] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:29:24,136] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:29:24,142] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2022-06-17 13:30:17,670] {processor.py:153} INFO - Started process (PID=20575) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:30:17,680] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:30:17,680] {logging_mixin.py:115} INFO - [2022-06-17 13:30:17,680] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:30:17,698] {logging_mixin.py:115} INFO - [2022-06-17 13:30:17,698] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:30:17,698] {logging_mixin.py:115} INFO - [2022-06-17 13:30:17,698] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:30:17,698] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:30:17,704] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.036 seconds
+[2022-06-17 13:31:22,655] {processor.py:153} INFO - Started process (PID=20783) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:31:22,662] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:31:22,663] {logging_mixin.py:115} INFO - [2022-06-17 13:31:22,663] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:31:22,679] {logging_mixin.py:115} INFO - [2022-06-17 13:31:22,679] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:31:22,679] {logging_mixin.py:115} INFO - [2022-06-17 13:31:22,679] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:31:22,680] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:31:22,685] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.034 seconds
+[2022-06-17 13:32:17,043] {processor.py:153} INFO - Started process (PID=21655) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:32:17,045] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:32:17,045] {logging_mixin.py:115} INFO - [2022-06-17 13:32:17,045] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:32:17,058] {logging_mixin.py:115} INFO - [2022-06-17 13:32:17,058] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:32:17,058] {logging_mixin.py:115} INFO - [2022-06-17 13:32:17,058] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:32:17,058] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:32:17,064] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2022-06-17 13:33:24,769] {processor.py:153} INFO - Started process (PID=22322) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:33:24,771] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:33:24,771] {logging_mixin.py:115} INFO - [2022-06-17 13:33:24,771] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:33:24,784] {logging_mixin.py:115} INFO - [2022-06-17 13:33:24,783] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:33:24,784] {logging_mixin.py:115} INFO - [2022-06-17 13:33:24,784] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:33:24,784] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:33:24,790] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2022-06-17 13:34:15,488] {processor.py:153} INFO - Started process (PID=23067) to work on /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:34:15,489] {processor.py:641} INFO - Processing file /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-17 13:34:15,490] {logging_mixin.py:115} INFO - [2022-06-17 13:34:15,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:34:15,500] {logging_mixin.py:115} INFO - [2022-06-17 13:34:15,500] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-17 13:34:15,500] {logging_mixin.py:115} INFO - [2022-06-17 13:34:15,500] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-17 13:34:15,500] {processor.py:653} WARNING - No viable dags retrieved from /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-17 13:34:15,507] {processor.py:161} INFO - Processing /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/venv/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
