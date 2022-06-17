@@ -1,6 +1,6 @@
 # If your terminal does not give you permissions to run this script, enter "chmod +x setup.sh" to grant execution permission
 
-# Change path to the location in your computer that you downloaded this project
+# Change path to the location in your computer that you downloaded this project 
 export AIRFLOW_HOME=~/data-engineering-bootcamp/workspace/airflow-code-review
 
 AIRFLOW_VERSION=2.3.2
