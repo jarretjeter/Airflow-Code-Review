@@ -1,6 +1,5 @@
-from unicodedata import name
 from airflow import DAG
-from airflow.operators import dag, task
+# from airflow.operators import dag, task
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 import random
@@ -18,15 +17,15 @@ default_args = {
 }
 
 with DAG(
-    "ch6_code_review",
+    "code_review",
     description="bash operator to echo name output to file",
     default_args=default_args
 ) as dag:
 
     echo_to_file = BashOperator(
         task_id="echo_name",
-        name = "Jarret",
-        bash_command=f"echo {name} > ch6_code_review.txt"
+        # NAME="Jarret",
+        bash_command="echo Jarret > echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
         )
 
 # @dag(
