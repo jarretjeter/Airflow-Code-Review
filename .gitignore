@@ -1,1 +1,8 @@
+logs/scheduler/latest
 /venv
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+airflow.db-journal
+standalone_admin_password.txt
+webserver_config.py
