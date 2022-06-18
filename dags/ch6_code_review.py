@@ -1,5 +1,5 @@
 from airflow import DAG
-# from airflow.operators import dag, task
+from airflow.operators import task
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 import random
@@ -28,6 +28,12 @@ with DAG(
         bash_command="echo Jarret > echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
         )
 
+@task
+def print_hello(file):
+    with open("/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt", "r") as file:
+        text = file.read()
+        print(f"Hello, {text}!")
+
 # @dag(
 #     schedule_interval="@once",
 #     start_date=datetime.utcnow(),
@@ -37,4 +43,4 @@ with DAG(
 #     tags=["code_review"]
 # )
 
-echo_to_file
+echo_to_file >> print_hello
