@@ -1,4 +1,5 @@
 from airflow import DAG
+from airflow.decorators import dag, task
 from airflow.operators import task
 from airflow.operators.bash import BashOperator
 from datetime import datetime
@@ -25,7 +26,7 @@ with DAG(
     echo_to_file = BashOperator(
         task_id="echo_name",
         # NAME="Jarret",
-        bash_command="echo Jarret > echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
+        bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
         )
 
 @task
