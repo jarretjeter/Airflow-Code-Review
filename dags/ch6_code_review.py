@@ -1,6 +1,5 @@
 from airflow import DAG
 from airflow.decorators import dag, task
-from airflow.operators import task
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 import random
@@ -8,40 +7,50 @@ import time
 
 APPLES = ["pink lady", "jazz", "orange pippin", "granny smith", "red delicious", "gala", "honeycrisp", "mcintosh", "fuji"]
 
-default_args = {
-    "schedule_interval": "@once",
-    "start_date": datetime.utcnow(),
-    "catchup": False,
-    "default_view": "graph",
-    "is_paused_upon_creation": True,
-    "tags": ["code_review"]
-}
+# default_args = {
+#     "schedule_interval": "@once",
+#     "start_date": datetime.utcnow(),
+#     "catchup": False,
+#     "default_view": "graph",
+#     "is_paused_upon_creation": True,
+#     "tags": ["code_review"]
+# }
 
-with DAG(
-    "code_review",
-    description="bash operator to echo name output to file",
-    default_args=default_args
-) as dag:
+# with DAG(
+#     "code_review",
+#     description="bash operator to echo name output to file",
+#     default_args=default_args
+# ) as dag:
+
+#     echo_to_file = BashOperator(
+#         task_id="echo_name",
+#         # NAME="Jarret",
+#         bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
+#         )
+
+
+@dag(
+    schedule_interval="@once",
+    start_date=datetime.utcnow(),
+    catchup=False,
+    default_view="graph",
+    is_paused_upon_creation=True,
+    tags=["code_review"]
+)
+def ch6_code_review_taskflow():
 
     echo_to_file = BashOperator(
-        task_id="echo_name",
-        # NAME="Jarret",
-        bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
-        )
+    task_id="echo_to_file",
+    # NAME="Jarret",
+    bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
+    )
 
-@task
-def print_hello(file):
-    with open("/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt", "r") as file:
-        text = file.read()
-        print(f"Hello, {text}!")
+    @task
+    def print_hello():
+        with open("/home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt", "r") as file:
+            text = file.read()
+            print(f"Hello, {text}!")
 
-# @dag(
-#     schedule_interval="@once",
-#     start_date=datetime.utcnow(),
-#     catchup=False,
-#     default_view="graph",
-#     is_paused_upon_creation=True,
-#     tags=["code_review"]
-# )
 
-echo_to_file >> print_hello
+    echo_to_file >> print_hello()
+dag = ch6_code_review_taskflow()
