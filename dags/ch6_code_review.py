@@ -1,6 +1,6 @@
-from airflow import DAG
 from airflow.decorators import dag, task
 from airflow.operators.bash import BashOperator
+from airflow.operators.empty import EmptyOperator
 from datetime import datetime
 import random
 import time
@@ -27,13 +27,17 @@ task_id="echo_msg",
 bash_command="echo picking three random apples"
 )
 
-
 @task
 def pick_rand_apple(message:str = "Picked apple: ") -> str:
     apple = random.choice(APPLES)
     print(f"{message} " + f"{apple}")
 
-    
+
+empty_task = EmptyOperator(
+    task_id="empty_task"
+)
+
+
 @dag(
     schedule_interval="@once",
     start_date=datetime.utcnow(),
@@ -48,9 +52,15 @@ def ch6_code_review_taskflow():
     t2 = print_hello()
     t3 = echo_msg
     t4 = pick_rand_apple()
+    t5 = pick_rand_apple()
+    t6 = pick_rand_apple()
+    t7 = empty_task
+    # for task in range(1, 3):
+        
+    #     pass
 
 
-    t1 >> t2 >> t3 >> t4
+    t1 >> t2 >> t3 >> [t4, t5, t6] >> t7
 
 
 dag = ch6_code_review_taskflow()
