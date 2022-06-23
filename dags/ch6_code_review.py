@@ -27,12 +27,13 @@ task_id="echo_msg",
 bash_command="echo picking three random apples"
 )
 
-# for task in range(4, 7):
-# @task
-# def rand_apple_task4(message:str) -> str:
-#     for apple in range(len(APPLES) -1):
-        
 
+@task
+def pick_rand_apple(message:str = "Picked apple: ") -> str:
+    apple = random.choice(APPLES)
+    print(f"{message} " + f"{apple}")
+
+    
 @dag(
     schedule_interval="@once",
     start_date=datetime.utcnow(),
@@ -46,10 +47,10 @@ def ch6_code_review_taskflow():
     t1 = echo_to_file
     t2 = print_hello()
     t3 = echo_msg
+    t4 = pick_rand_apple()
 
 
-
-    t1 >> t2 >> t3
+    t1 >> t2 >> t3 >> t4
 
 
 dag = ch6_code_review_taskflow()
