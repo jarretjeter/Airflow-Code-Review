@@ -7,27 +7,6 @@ import time
 
 APPLES = ["pink lady", "jazz", "orange pippin", "granny smith", "red delicious", "gala", "honeycrisp", "mcintosh", "fuji"]
 
-# default_args = {
-#     "schedule_interval": "@once",
-#     "start_date": datetime.utcnow(),
-#     "catchup": False,
-#     "default_view": "graph",
-#     "is_paused_upon_creation": True,
-#     "tags": ["code_review"]
-# }
-
-# with DAG(
-#     "code_review",
-#     description="bash operator to echo name output to file",
-#     default_args=default_args
-# ) as dag:
-
-#     echo_to_file = BashOperator(
-#         task_id="echo_name",
-#         # NAME="Jarret",
-#         bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/airflow-code-review/dags/ch6_code_review.txt"
-#         )
-
 
 @dag(
     schedule_interval="@once",
@@ -51,6 +30,11 @@ def ch6_code_review_taskflow():
             text = file.read()
             print(f"Hello, {text}!")
 
+    echo_msg = BashOperator(
+    task_id="echo_msg",
+    bash_command="echo picking three random apples"
+    )
 
-    echo_to_file >> print_hello()
+    echo_to_file >> print_hello() >> echo_msg
+
 dag = ch6_code_review_taskflow()
