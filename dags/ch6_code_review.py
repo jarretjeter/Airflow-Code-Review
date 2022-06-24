@@ -15,7 +15,7 @@ bash_command="echo Jarret > /home/jarret/data-engineering-bootcamp/workspace/air
 )
 
 
-# @task is a python decorator that can be used to declare that the function is to be used as a DAG task. Can be used in the place of a python operator for simplicity and better readability
+# @task is a python decorator that can be used to declare that the function is to be used as a DAG task. Can be used in the place of a python operator for simplicity and better readability. This task is dependent on the upstream task 'echo_to_file' to first create a txt file
 @task
 def print_hello() -> str:
     """

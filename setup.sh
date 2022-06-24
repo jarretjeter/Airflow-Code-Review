@@ -1,3 +1,4 @@
+### Make sure that you are first in a python virtual environment of version 3.7!
 # If your terminal does not give you permissions to run this script, enter "chmod +x setup.sh" to grant execution permission
 
 # Change path to the location in your computer that you downloaded this project 
