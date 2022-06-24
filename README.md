@@ -21,7 +21,7 @@ I included a bash script with instructions on how to set up Airflow locally on a
 * _Read the contents of setup.sh and then run it in your bash terminal_
 * _Next, in your terminal run the command 'airflow standalone'_
 * _Once you have Airflow up and running, go to your browser and enter the address 'localhost:8080'. You'll be prompted to enter a user which is 'admin' by default and a password. Look in the standalone_admin_password.txt file that was generated during the Airflow installation for your password._
-* _Once logged in you can click on the DAG 'ch6_code_review', toggle it on and run it to see it work. You can click on the individual tasks and then their logs to see their output after running._
+* _Once logged in you can click on the DAG 'ch6_code_review_taskflow', toggle it on and run it to see it work. You can click on the individual tasks and then their logs to see their output after running._
 
 ## Known Bugs
 
